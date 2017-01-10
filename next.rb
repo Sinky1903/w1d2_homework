@@ -74,4 +74,49 @@ case number
    else
      puts "Invalid Number!!"
    end
-   
+
+
+   puts "enter number between 1 and 12"
+   number = gets.chomp.to_i
+
+   case number
+      when 1
+        puts "Jan"
+      when 2
+        puts "Feb"
+     when 3
+        puts "Mar"
+      when 4
+        puts "Apr"
+      when 5
+        puts "May"
+      when 6
+        puts "Jun"
+      when 7
+        puts "Jul"
+      when 8
+        puts "Aug"
+      when 9
+        puts "Sep"
+      when 10
+        puts "Oct"
+      when 11
+        puts "Nov"
+      when 12
+        puts "Dec"
+      else
+        puts "Invalid Number!!"
+      end
+
+
+      puts "please enter weight (kilos)?"
+      weight = gets.chomp.to_i
+
+      puts "please enter height (meters)?"
+      height = gets.chomp.to_i
+
+      if (weight >= 40 && height >= 140)
+        puts "enter"
+      else
+        puts "sorry"
+      end
