@@ -35,8 +35,43 @@ else
   puts "incorrect pin"
 end
 
+
 def divide (number_1, number_2)
   return number_1 / number_2
 end
 
 puts "10 divided by 2 is #{divide(10, 2)}"
+
+
+puts "enter number between 1 and 12"
+number = gets.chomp.to_i
+
+case number
+   when 1
+     puts "January"
+   when 2
+     puts "February"
+  when 3
+     puts "March"
+   when 4
+     puts "April"
+   when 5
+     puts "May"
+   when 6
+     puts "June"
+   when 7
+     puts "July"
+   when 8
+     puts "August"
+   when 9
+     puts "September"
+   when 10
+     puts "October"
+   when 11
+     puts "November"
+   when 12
+     puts "December"
+   else
+     puts "Invalid Number!!"
+   end
+   
